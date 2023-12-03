@@ -595,6 +595,9 @@ border: 1px solid #F4F4FD;
     min-width: 264px;
     height: 40px;
     border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
     color: #FFF;
     font-size: 12px;
     font-weight: 400;
@@ -604,8 +607,7 @@ border: 1px solid #F4F4FD;
     padding-left: 16px;
     align-items: center;
     line-height: 1.5;
-    border: 1px solid #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -708,7 +710,7 @@ border: 1px solid #F4F4FD;
     cursor: pointer;
     }
 
-/* не працює ховер */
+
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     fill: #FFFFFF;
