@@ -587,6 +587,7 @@ img {
 .footer-social-subscribe-button-icon {
     margin-left: 16px;
     fill: #FFFFFF;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -644,9 +645,10 @@ img {
     gap: 16px;
     border-radius: 4px;
     background: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
 }
 
 .footer-social-subscribe-button:hover,
@@ -775,6 +777,7 @@ img {
 
 .review-form-imput-wrapper {
     position: relative;
+    margin-bottom: 16px;
 }
 
 .review-form-input-icon {
