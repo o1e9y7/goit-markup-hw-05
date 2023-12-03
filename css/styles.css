@@ -769,6 +769,10 @@ img {
     margin-bottom: 8px;
 }
 
+.review-form-field-wrapper-last {
+    margin-bottom: 16px;
+}
+
 .review-formo-filed-label {
     display: block;
     color: #8E8F99;
