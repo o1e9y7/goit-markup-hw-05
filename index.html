@@ -487,7 +487,7 @@
                 placeholder="E-mail"
               />
             </label>
-            <button class="footer-social-subscribe-button">
+            <button class="footer-social-subscribe-button" type="submit">
               Subscribe
               <svg
                 class="footer-social-subscribe-button-icon"
@@ -506,14 +506,14 @@
     <!--  MODAL-SECTION  -->
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-close-btn">
+        <button class="modal-close-btn" type="button">
           <svg
             class="modal-close-btn-icon"
-            width="8px"
-            height="8px"
+            width="8"
+            height="8"
             aria-label="close modal icon"
           >
-            <use href="/images/icons.svg#icon-close"></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="review-form-description">
@@ -543,11 +543,7 @@
             </div>
           </div>
           <div class="review-form-field-wrapper">
-            <label
-              class="reviwe-formo-filed-label"
-              for="user-phone"
-              type="phone"
-            >
+            <label class="reviwe-formo-filed-label" for="user-phone">
               Phone
             </label>
             <div class="reviwe-form-imput-wrapper">
@@ -574,7 +570,7 @@
             <label class="reviwe-formo-filed-label" for="user-email"
               >Email</label
             >
-            <div class="reviwe-form-imput-wrapper">
+            <div class="review-form-imput-wrapper">
               <input
                 class="reviwe-form-imput"
                 type="email"
@@ -593,13 +589,13 @@
             </div>
           </div>
           <div class="review-form-field-wrapper">
-            <label class="reviwe-formo-filed-label" for="user-coment"
+            <label class="reviwe-formo-filed-label" for="user-comment"
               >Comment</label
             >
             <textarea
               class="reviwe-form-coment"
-              name="user-coment"
-              id="user-coment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
               required
             ></textarea>
@@ -608,12 +604,12 @@
             <input
               class="reviwe-form-checkbox visually-hidden"
               value="true"
-              name="user-privacy-policy"
+              name="user-privacy"
               type="checkbox"
-              id="user-privacy-policy"
+              id="user-privacy"
               required
             />
-            <label class="reviwe-form-checkbox-label" for="user-privacy-policy">
+            <label class="reviwe-form-checkbox-label" for="user-privacy">
               <span class="reviwe-form-own-checkbox">
                 <svg
                   class="reviwe-form-own-checkbox-icon"
@@ -621,7 +617,7 @@
                   height="8"
                   aria-label="checkmark icom"
                 >
-                  <use href="/images/icons.svg#icon-check"></use>
+                  <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
