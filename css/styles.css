@@ -717,12 +717,12 @@ img {
     position: absolute;
     width: 24px;
     height: 24px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    , border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.10);
     cursor: pointer;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -777,7 +777,6 @@ img {
 
 .review-form-imput-wrapper {
     position: relative;
-    margin-bottom: 16px;
 }
 
 .review-form-input-icon {
@@ -821,7 +820,7 @@ img {
 }
 
 .review-form-checkbox-wrapper {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .review-form-own-checkbox {
