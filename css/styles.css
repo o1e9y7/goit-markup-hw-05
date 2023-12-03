@@ -687,6 +687,10 @@ img {
 
 /* ====================== MODAL-SECTION ======================*/
 
+.modal-close-btn-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal {
     position: absolute;
     top: 50%;
@@ -843,6 +847,7 @@ img {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
+    
 
 }
 
@@ -854,6 +859,7 @@ img {
 .review-form-own-checkbox-icon {
     fill: #f4f4fd;
     opacity: 0;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 
